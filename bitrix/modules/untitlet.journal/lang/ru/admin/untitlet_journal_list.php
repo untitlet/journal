@@ -1,0 +1,20 @@
+<?php
+$MESS['UNTITLET_JOURNAL_ADMIN_LIST_TITLE'] = 'Записи журнала согласий';
+$MESS['UNTITLET_JOURNAL_PAGE_TITLE'] = 'Журнал согласий пользователей';
+$MESS['UNTITLET_JOURNAL_EXPORT_CSV'] = 'Экспорт в CSV';
+$MESS['UNTITLET_JOURNAL_COL_DATE'] = 'Дата/Время';
+$MESS['UNTITLET_JOURNAL_COL_USER'] = 'Пользователь';
+$MESS['UNTITLET_JOURNAL_COL_TYPE'] = 'Тип согласия';
+$MESS['UNTITLET_JOURNAL_COL_STATUS'] = 'Статус';
+$MESS['UNTITLET_JOURNAL_COL_FORM'] = 'Форма';
+$MESS['UNTITLET_JOURNAL_COL_VERSION'] = 'Версия текста';
+$MESS['UNTITLET_JOURNAL_COL_IP'] = 'IP адрес';
+$MESS['UNTITLET_JOURNAL_COL_URL'] = 'URL страницы';
+$MESS['UNTITLET_JOURNAL_FILTER_USER'] = 'ID пользователя';
+$MESS['UNTITLET_JOURNAL_FILTER_TYPE'] = 'Тип согласия';
+$MESS['UNTITLET_JOURNAL_FILTER_STATUS'] = 'Статус';
+$MESS['UNTITLET_JOURNAL_FILTER_FORM'] = 'ID формы';
+$MESS['UNTITLET_JOURNAL_FILTER_DATE_FROM'] = 'Дата с';
+$MESS['UNTITLET_JOURNAL_FILTER_DATE_TO'] = 'Дата по';
+$MESS['UNTITLET_JOURNAL_MODULE_NOT_INSTALLED'] = 'Модуль "Журнал согласий" не установлен';
+$MESS['ACCESS_DENIED'] = 'Доступ запрещён';
