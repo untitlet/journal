@@ -1,6 +1,12 @@
 ```
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+
 # Dependencies
+vendor/
 node_modules/
+composer.lock
 
 # Logs and temp files
 *.log
@@ -19,50 +25,26 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Build artifacts
-dist/
-build/
-target/
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Compression files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Backup files
+*~
+*.bak
+*.swp
 
 # Cache directories
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
-.gradle/
+.cache/
+.php_cs.cache
+
+# Distribution / packaging
+dist/
+build/
+*.phar
+
+# Sensitive files
+config/local/**
+!config/local/.gitkeep
+
+# Joomla specific
+administrator/logs/
+*.log.php
+error_log
 ```
