@@ -34,8 +34,10 @@ try {
     
     // Count records to be deleted
     $count = LogTable::getCount([
-        '<' => 'TIMESTAMP' => $cutoffDate,
-        '=STATUS' => 'granted',
+        'filter' => [
+            '<TIMESTAMP' => $cutoffDate,
+            '=STATUS' => 'granted',
+        ],
     ]);
     
     echo "Found {$count} records to delete\n";
@@ -50,7 +52,7 @@ try {
             $rs = LogTable::getList([
                 'select' => ['ID'],
                 'filter' => [
-                    '<' => 'TIMESTAMP' => $cutoffDate,
+                    '<TIMESTAMP' => $cutoffDate,
                     '=STATUS' => 'granted',
                 ],
                 'limit' => $chunkSize,
